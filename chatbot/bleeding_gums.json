@@ -1,0 +1,15 @@
+{
+  "symptom": "bleeding gums",
+  "flow": [
+    {
+      "question": "Are your gums painful and swollen?",
+      "yes": "See a dentist \u2013 may be gum disease",
+      "no": "Improve brushing and flossing habits"
+    },
+    {
+      "question": "Do your gums bleed when brushing or eating?",
+      "yes": "Use a soft-bristled brush and see a dentist",
+      "no": "Continue good oral hygiene and monitor"
+    }
+  ]
+}

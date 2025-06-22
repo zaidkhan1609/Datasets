@@ -1,0 +1,15 @@
+{
+  "symptom": "tooth pain",
+  "flow": [
+    {
+      "question": "Does the pain last more than 2 days?",
+      "yes": "See a dentist for assessment",
+      "no": "Use pain relief and monitor symptoms"
+    },
+    {
+      "question": "Is there swelling or a bad taste in your mouth?",
+      "yes": "Possible abscess \u2013 seek urgent dental care",
+      "no": "May be sensitivity \u2013 avoid cold/hot food and drink"
+    }
+  ]
+}

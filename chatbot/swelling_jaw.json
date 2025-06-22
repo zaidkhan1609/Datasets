@@ -1,0 +1,10 @@
+{
+  "symptom": "swelling in jaw",
+  "flow": [
+    {
+      "question": "Is there pain or pus?",
+      "yes": "See dentist urgently \u2013 could be infection or abscess.",
+      "no": "Monitor for 24h. If it worsens, seek dental advice."
+    }
+  ]
+}

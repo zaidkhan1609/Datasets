@@ -1,0 +1,15 @@
+{
+  "symptom": "toothache",
+  "flow": [
+    {
+      "question": "Does it last more than 2 days?",
+      "yes": "See dentist",
+      "no": "Monitor"
+    },
+    {
+      "question": "Is there swelling or fever?",
+      "yes": "Go to A&E",
+      "no": "Use pain relief and book appointment"
+    }
+  ]
+}

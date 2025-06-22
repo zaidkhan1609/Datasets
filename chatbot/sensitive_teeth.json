@@ -1,0 +1,15 @@
+{
+  "symptom": "sensitive teeth",
+  "flow": [
+    {
+      "question": "Is the sensitivity triggered by hot/cold foods?",
+      "yes": "Try a desensitizing toothpaste",
+      "no": "Check for cracks or gum issues"
+    },
+    {
+      "question": "Does the pain linger more than a minute?",
+      "yes": "See a dentist for evaluation",
+      "no": "Continue oral care and monitor"
+    }
+  ]
+}

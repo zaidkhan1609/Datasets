@@ -1,0 +1,15 @@
+{
+  "symptom": "swollen jaw",
+  "flow": [
+    {
+      "question": "Are you finding it difficult to breathe or swallow?",
+      "yes": "Go to A&E or call 999",
+      "no": "Call NHS 111 or see a dentist urgently"
+    },
+    {
+      "question": "Is there a fever or pus discharge?",
+      "yes": "Possible infection or abscess \u2013 see a dentist urgently",
+      "no": "Monitor and apply a cold compress"
+    }
+  ]
+}

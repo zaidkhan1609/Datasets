@@ -1,0 +1,10 @@
+{
+  "symptom": "loose tooth",
+  "flow": [
+    {
+      "question": "Is it painful or bleeding?",
+      "yes": "See dentist urgently",
+      "no": "Book regular dental visit"
+    }
+  ]
+}

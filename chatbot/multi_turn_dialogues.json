@@ -1,0 +1,86 @@
+[
+  {
+    "dialogue_id": "gum_bleeding_001",
+    "turns": [
+      {
+        "role": "user",
+        "text": "My gums bleed when I brush. Should I be worried?"
+      },
+      {
+        "role": "bot",
+        "text": "I'm sorry to hear that. Are your gums painful or swollen as well?"
+      },
+      {
+        "role": "user",
+        "text": "Not really, just bleeding a bit."
+      },
+      {
+        "role": "bot",
+        "text": "It could be early gum disease. Try brushing gently with a soft-bristled brush and flossing daily. If it doesn\u2019t improve in a week or two, book a dentist appointment."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "tooth_sensitivity_002",
+    "turns": [
+      {
+        "role": "user",
+        "text": "My teeth hurt when I eat ice cream."
+      },
+      {
+        "role": "bot",
+        "text": "That sounds like sensitivity. Do you also feel pain when eating sweet or hot foods?"
+      },
+      {
+        "role": "user",
+        "text": "Sometimes, yes."
+      },
+      {
+        "role": "bot",
+        "text": "You might benefit from a toothpaste for sensitive teeth. Avoid very cold or acidic foods and get checked for tooth decay."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "child_brushing_003",
+    "turns": [
+      {
+        "role": "user",
+        "text": "When should my child start brushing their teeth?"
+      },
+      {
+        "role": "bot",
+        "text": "As soon as their first tooth appears, usually around 6 months. Use a tiny smear of fluoride toothpaste and supervise them."
+      },
+      {
+        "role": "user",
+        "text": "What kind of toothbrush should I use?"
+      },
+      {
+        "role": "bot",
+        "text": "Use a soft baby toothbrush with a small head. Brush twice daily \u2013 especially before bed."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "wisdom_tooth_pain_004",
+    "turns": [
+      {
+        "role": "user",
+        "text": "My wisdom tooth is really hurting."
+      },
+      {
+        "role": "bot",
+        "text": "Sorry to hear that. Is your cheek swollen or do you have trouble opening your mouth?"
+      },
+      {
+        "role": "user",
+        "text": "Yeah, it\u2019s hard to chew."
+      },
+      {
+        "role": "bot",
+        "text": "You could have an impacted wisdom tooth or an infection. Please book a dental appointment as soon as possible."
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "symptom": "knocked out tooth",
+  "flow": [
+    {
+      "question": "Is it a permanent (adult) tooth?",
+      "yes": "Place in milk or reinsert gently and see a dentist immediately",
+      "no": "Do not reinsert \u2013 contact dentist for follow-up"
+    },
+    {
+      "question": "Can you find the tooth?",
+      "yes": "Store in milk or saliva and take it to the dentist",
+      "no": "Still go to a dentist urgently"
+    }
+  ]
+}
