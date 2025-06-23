@@ -1,0 +1,48 @@
+{
+  "symptom": "Bleeding",
+  "flow": [
+    {
+      "question": "Has the patient had a recent dental extraction or other dental treatment?",
+      "yes": "Continue to trauma check",
+      "no": "Continue to trauma check"
+    },
+    {
+      "question": "Has the patient had recent trauma?",
+      "yes": "Go to Trauma pathway",
+      "no": "Continue to assess bleeding"
+    },
+    {
+      "question": "Is the bleeding brisk and persistent?",
+      "yes": "Emergency Care: NHS24",
+      "no": "Continue"
+    },
+    {
+      "question": "Is the patient systemically unwell?",
+      "yes": "Emergency Care: NHS24",
+      "no": "Several conditions can cause low level bleeding. Assessment by a dentist is required. \u2192 Non-urgent Care: Dental"
+    },
+    {
+      "advice": "Advise patient to:\n- rinse the mouth once only with warm (not hot) water\n- bite on moistened cotton handkerchief or gauze\n- maintain constant pressure while sitting upright quietly for 20 minutes\nBe aware that bleeding may be more persistent if the patient is taking blood thinners"
+    },
+    {
+      "question": "Has the bleeding stopped?",
+      "yes": "Advise no smoking, alcohol or exercise for 24 hours \u2192 Self Care unless problem persists or worsens",
+      "no": "Continue to check for blood thinners"
+    },
+    {
+      "question": "Is the patient on blood thinners?",
+      "yes": "Emergency Care: Dental or NHS24",
+      "no": "Repeat pressure advice"
+    },
+    {
+      "question": "Has the bleeding stopped after repeat pressure?",
+      "yes": "Advise no smoking, alcohol or exercise for 24 hours \u2192 Self Care unless problem persists or worsens",
+      "no": "Continue to final check"
+    },
+    {
+      "question": "Is the bleeding brisk and persistent on final check?",
+      "yes": "Emergency Care: NHS24",
+      "no": "Urgent Care: Dental"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "symptom": "Ulceration",
+  "flow": [
+    {
+      "question": "Is the patient listless or dehydrated?",
+      "yes": "Are there signs of severe dehydration?",
+      "no": "Has the patient been aware of the ulcer(s) for more than 3 weeks?"
+    },
+    {
+      "question": "Are there signs of severe dehydration?",
+      "yes": "Emergency Care: NHS24",
+      "no": "Urgent Care: Medical"
+    },
+    {
+      "question": "Has the patient been aware of the ulcer(s) for more than 3 weeks?",
+      "yes": "Urgent Care: Local Rapid Access Pathway",
+      "no": "Is this the first time the patient has had this?"
+    },
+    {
+      "question": "Is this the first time the patient has had this?",
+      "yes": "Is the patient taking medication or do they have an underlying medical condition that may be associated with oral ulceration?",
+      "no": "There are several possible causes of recurrent painful oral ulceration and this normally requires further investigation by a dentist. Advise optimal analgesia (including topical) and use of chlorhexidine mouthwash* \u2192 Non-urgent Care: Dental"
+    },
+    {
+      "question": "Is the patient taking medication or do they have an underlying medical condition that may be associated with oral ulceration?",
+      "yes": "Advise optimal analgesia (including topical) \u2192 Urgent Care: Medical",
+      "no": "Is this a single ulcer?"
+    },
+    {
+      "question": "Is this a single ulcer?",
+      "yes": "Is the patient systemically unwell?",
+      "no": "Multiple painful oral ulcers may be due to herpes virus (or other rarer causes) and should be assessed by a dentist. Advise optimal analgesia (including topical) and use of chlorhexidine mouthwash*"
+    },
+    {
+      "question": "Is the patient systemically unwell?",
+      "yes": "Urgent Care: Medical",
+      "no": "Has there been trauma from an adjacent tooth, orthodontic appliance or caused by loose or ill-fitting dentures?"
+    },
+    {
+      "question": "Has there been trauma from an adjacent tooth, orthodontic appliance or caused by loose or ill-fitting dentures?",
+      "yes": "Advise optimal analgesia (including topical), use of chlorhexidine mouthwash* and, as appropriate:\n- Application of malleable wax to sharp teeth or sharp non-removable parts of appliance causing trauma\n- Patient to keep dentures out, where possible \u2192 Self Care unless problem persists or worsens",
+      "no": "Has the patient had recent dental treatment with local anaesthetic?"
+    },
+    {
+      "question": "Has the patient had recent dental treatment with local anaesthetic?",
+      "yes": "Ulcer is likely to be caused by trauma to anaesthetised soft tissues. Advise optimal analgesia (including topical) and for patient to avoid further trauma, hot drinks and smoking \u2192 Self Care unless problem persists or worsens",
+      "no": "Advise optimal analgesia (including topical) and use of chlorhexidine mouthwash* \u2192 Self Care unless problem persists or worsens or if ulcer fails to heal in 7 days \u2192 Non-urgent Care: Dental"
+    },
+    {
+      "note": "*Chlorhexidine mouthwash is not suitable for children under 7 years old because of its taste and their limited ability to rinse without swallowing"
+    }
+  ]
+}

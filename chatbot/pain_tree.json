@@ -1,0 +1,70 @@
+{
+  "symptom": "Pain",
+  "flow": [
+    {
+      "question": "Are there signs of MI or overdose?",
+      "yes": "Emergency Care: NHS24 or dial 999",
+      "no": "Continue"
+    },
+    {
+      "question": "Is the pain due to trauma?",
+      "yes": "Go to Trauma pathway",
+      "no": "Continue"
+    },
+    {
+      "question": "Is there swelling?",
+      "yes": "Go to Swelling pathway",
+      "no": "Continue"
+    },
+    {
+      "question": "Is the pain in a tooth?",
+      "yes": "Continue",
+      "no": "Start from Swelling pathway"
+    },
+    {
+      "question": "Is the pain in an erupting tooth?",
+      "yes": "Is this an adult or newly erupted tooth in a child?",
+      "no": "Continue"
+    },
+    {
+      "question": "Is this an adult or newly erupted tooth in a child?",
+      "yes": "Advise optimal analgesia, soft brushing and rinsing after food",
+      "no": "Self Care unless problem persists or worsens"
+    },
+    {
+      "question": "Has analgesic been taken?",
+      "yes": "Continue",
+      "no": "Advise optimal analgesia. Avoid stimuli"
+    },
+    {
+      "question": "Has analgesic controlled the pain?",
+      "yes": "Non-urgent Care: Dental",
+      "no": "Urgent Care: Dental"
+    },
+    {
+      "question": "Has the patient recently had a tooth extracted?",
+      "yes": "Advise optimal analgesia, patient to avoid smoking and to maintain good oral hygiene \u2192 Urgent Care: Dental",
+      "no": "Continue"
+    },
+    {
+      "question": "Is the pain in the face or mouth?",
+      "yes": "Continue",
+      "no": "Advise chlorhexidine mouthwash, optimal analgesia. If signs of spreading infection, consider prescribing metronidazole or amoxicillin \u2192 Urgent Care: Dental"
+    },
+    {
+      "question": "Are there signs of visual disturbance suggestive of temporal arteritis?",
+      "yes": "Emergency Care: NHS24",
+      "no": "Urgent Care: Dental"
+    },
+    {
+      "question": "Is the pain associated with an orthodontic appliance, sharp tooth or denture?",
+      "yes": "Advise optimal analgesia (including topical), use of chlorhexidine mouthwash* and, as appropriate:\n- Application of malleable wax to sharp teeth or non-removable parts of appliance causing trauma\n- Patient to keep dentures out, where possible \u2192 Non-urgent Care: Dental",
+      "no": "Continue"
+    },
+    {
+      "question": "Is the pain from an ulcer?",
+      "yes": "Go to Ulceration pathway",
+      "no": "Advise optimal analgesia. Avoid stimuli \u2192 Non-urgent Care: Dental"
+    }
+  ]
+}

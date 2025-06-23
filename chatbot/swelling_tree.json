@@ -1,0 +1,89 @@
+
+{
+  "symptom": "Swelling",
+  "flow": [
+    {
+      "question": "Is the patient having difficulty breathing?",
+      "aliases": [
+        "Is breathing difficult?",
+        "Is it hard for the patient to breathe?",
+        "Is the patient struggling to catch their breath?"
+      ],
+      "yes": "Emergency Care: NHS24",
+      "no": "Continue"
+    },
+    {
+      "question": "Does the patient find it difficult to stick out or move their tongue?",
+      "aliases": [
+        "Is tongue movement difficult?",
+        "Is there trouble moving the tongue?"
+      ],
+      "yes": "Emergency Care: NHS24",
+      "no": "Continue"
+    },
+    {
+      "question": "Is the swelling closing the eye?",
+      "aliases": [
+        "Is the eye being pushed shut?",
+        "Is the swelling affecting the eye?"
+      ],
+      "yes": "Emergency Care: NHS24",
+      "no": "Continue"
+    },
+    {
+      "question": "Is the swelling sudden and unexplained (possible angioedema)?",
+      "aliases": [
+        "Did the swelling appear without warning?",
+        "Is it possible the swelling is due to an allergic reaction?"
+      ],
+      "yes": "Emergency Care: NHS24",
+      "no": "Continue"
+    },
+    {
+      "question": "Is the swelling rapidly increasing or likely to obstruct the airway or close the eye?",
+      "aliases": [
+        "Is the swelling growing fast?",
+        "Is it likely to block the airway or close the eye?"
+      ],
+      "yes": "Emergency Care: NHS24",
+      "no": "Continue"
+    },
+    {
+      "question": "Is the patient systemically unwell (e.g. rigors, increasing temperature, dehydrated, lethargic)? Note that a child or immunocompromised patient may deteriorate more rapidly.",
+      "aliases": [
+        "Is the patient weak, feverish or dehydrated?",
+        "Is the patient showing systemic illness symptoms?"
+      ],
+      "yes": "Emergency Care: NHS24",
+      "no": "Continue"
+    },
+    {
+      "question": "Is the swelling slowly increasing in size, hot or firm to touch?",
+      "aliases": [
+        "Is the swelling gradually growing?",
+        "Does the swelling feel firm or hot?"
+      ],
+      "yes": "Urgent Care: Dental",
+      "no": "Continue"
+    },
+    {
+      "question": "Is the patient also in pain?",
+      "aliases": [
+        "Is the swelling painful?",
+        "Is the patient experiencing any pain with the swelling?"
+      ],
+      "yes": "Non-urgent Care: Dental",
+      "no": "The patient may require antibiotics. If in non-dental setting or dental care is unavailable, consider prescribing antibiotics before referral."
+    },
+    {
+      "question": "Does the patient have atypical jaw pain and any other signs of myocardial infarction (e.g. breathlessness, chest pain), OR has the patient exceeded the recommended dose of pain relief medication (e.g. more than 8 x 500mg paracetamol tablets in 24 hours)?",
+      "aliases": [
+        "Is there any sign of heart attack symptoms like chest pain?",
+        "Has the patient taken too many painkillers?",
+        "Are there signs of overdose or MI?"
+      ],
+      "yes": "Emergency Care: NHS24 or dial 999",
+      "no": "Go to Pain Pathway"
+    }
+  ]
+}

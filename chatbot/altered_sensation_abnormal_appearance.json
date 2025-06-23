@@ -1,0 +1,40 @@
+{
+  "symptom": "Altered Sensation or Abnormal Appearance",
+  "flow": [
+    {
+      "question": "Are there signs of stroke? e.g. Facial asymmetry or weakness, Arm weakness, Speech problems (F.A.S.T.)",
+      "yes": "Emergency Care: NHS24 or dial 999",
+      "no": "Does the patient have altered sensation or abnormal appearance?"
+    },
+    {
+      "question": "Does the patient have altered sensation or abnormal appearance?",
+      "yes": "Has the patient had recent dental or other treatment that might be the cause?",
+      "no": "End"
+    },
+    {
+      "question": "Has the patient had recent dental or other treatment that might be the cause?",
+      "yes": "Urgent Care",
+      "no": "Advise the patient to contact the treatment provider within 7 days or earlier if the symptoms worsen \u2192 Non-urgent Care"
+    },
+    {
+      "question": "Is there a swelling or lump?",
+      "yes": "Has a lump recently increased in size or become ulcerated?",
+      "no": "Is there a red, white or red/white speckled lesion or pigmented area?"
+    },
+    {
+      "question": "Has a lump recently increased in size or become ulcerated?",
+      "yes": "Urgent Care: Local Rapid Access Pathway",
+      "no": "Go to Swelling pathway"
+    },
+    {
+      "question": "Is there a red, white or red/white speckled lesion or pigmented area?",
+      "yes": "Has this been present for more than 3 weeks?",
+      "no": "Non-urgent Care: Dental"
+    },
+    {
+      "question": "Has this been present for more than 3 weeks?",
+      "yes": "Urgent Care: Local Rapid Access Pathway",
+      "no": "Non-urgent Care: Dental"
+    }
+  ]
+}

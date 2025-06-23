@@ -1,0 +1,68 @@
+{
+  "symptom": "Trauma",
+  "flow": [
+    {
+      "question": "Has there been a head injury, loss of consciousness, significant facial trauma, is there uncontrolled bleeding or is the airway compromised?",
+      "yes": "Emergency Care: NHS24 or dial 999",
+      "no": "Assess and control any residual bleeding by applying pressure"
+    },
+    {
+      "question": "Does the patient have any intraoral or soft tissue trauma?",
+      "yes": "Continue",
+      "no": "Self Care unless problem persists or worsens"
+    },
+    {
+      "question": "Does the patient have a degloving injury, large lacerations, or lacerations across the tongue?",
+      "yes": "Emergency Care: NHS24",
+      "no": "Continue"
+    },
+    {
+      "question": "Does the patient also have trauma to the teeth?",
+      "yes": "Continue",
+      "no": "Most small intra-oral lacerations do not require suturing. Advise optimal analgesia and patient to maintain good oral hygiene \u2192 Self Care unless problem persists or worsens"
+    },
+    {
+      "question": "Can the patient open and close their jaw and do their teeth/dentures meet together as they did before?",
+      "no": "Emergency Care: NHS24",
+      "yes": "Continue"
+    },
+    {
+      "question": "Is it suspected that the patient has inhaled a tooth or tooth fragment?",
+      "yes": "Emergency Care: NHS24",
+      "no": "Continue"
+    },
+    {
+      "question": "Has a tooth been knocked out?",
+      "no": "Continue",
+      "yes": "Is this an adult tooth?"
+    },
+    {
+      "question": "Is this an adult tooth?",
+      "yes": "Avoid handling the root. If feasible, replace the tooth in its socket and bite gently on a cloth to hold in position. Otherwise, place in socketed tooth in milk. Note: reimplantation has better success if <6 hrs or patient is <16 yrs old \u2192 Emergency Care: Dental or NHS24",
+      "no": "Primary teeth are not reimplanted. Advise soft diet and analgesia (if required) \u2192 Urgent Care: Dental"
+    },
+    {
+      "question": "Has a tooth been broken or damaged?",
+      "yes": "Continue",
+      "no": "Continue"
+    },
+    {
+      "question": "Have any teeth moved?",
+      "no": "Self Care unless problem persists or worsens",
+      "yes": "Advise optimal analgesia, if required \u2192 Urgent Care: Dental"
+    },
+    {
+      "question": "Does the fracture involve the pulp?",
+      "yes": "Retain any broken pieces of tooth in water and, if available, consider covering exposed pulp with calcium hydroxide paste \u2192 Urgent Care: Dental",
+      "no": "Continue"
+    },
+    {
+      "question": "Does the fracture involve dentine?",
+      "yes": "Non-urgent Care: Dental",
+      "no": "Advise use of desensitising toothpaste to fractured surface while awaiting appointment \u2192 Urgent Care: Dental"
+    },
+    {
+      "note": "In many cases, further treatment is not necessary, but assessment by a dentist within 7 days is recommended. Advise soft diet and analgesia if required \u2192 Non-urgent Care: Dental"
+    }
+  ]
+}
